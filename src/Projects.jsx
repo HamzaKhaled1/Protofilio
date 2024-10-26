@@ -1,5 +1,5 @@
 import ProjectCard from "./ProjectCard"
-import Galleria from "../public/Projects/Galleria.webp"
+import Galleria from "/Projects/Galleria.webp"
 import projectsdata from "../projects.json"
 import axios from "axios"
 import { useEffect, useState } from "react"

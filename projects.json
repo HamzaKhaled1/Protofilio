@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "Galleria-slideshow-site",
-            "image": "/public/Projects/Galleria.webp",
+            "image": "/Projects/Galleria.webp",
             "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git",
             "description": [
                 "Elegant Gallery Layout: Experience art like never before with our beautifully designed gallery layout. Each painting is showcased with style and sophistication, all thanks to the powerful React framework.",
@@ -17,7 +17,7 @@
         {
             "id": 2,
             "name": "Dictionary",
-            "image": "/public/Projects/Dictionary.webp",
+            "image": "/Projects/Dictionary.webp",
             "link": "https://github.com/HamzaKhaled1/dictionary.git",
             "description": "a simple responsive dictionary app, built using React, Tailwind CSS, and JavaScript. Designed to look great on any device, the app provides quick definitions at your fingertips. 🧠📚📹 In this video, I walk through the app and demonstrate how it adapts to different screen sizes using clean, responsive design principles."
         }
@@ -25,7 +25,7 @@
         {
             "id": 3,
             "name": "BlackMart",
-            "image": "/public/Projects/BlackMart.jpg",
+            "image": "/Projects/BlackMart.jpg",
             "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git",
             "description": [
                 "A Full-Stack E-Commerce Web Application! 🛒",
@@ -54,7 +54,7 @@
         {
             "id": 4,
             "name": "Time-tracking-dashboard",
-            "image": "/public/Projects/Time Tracking.jpg",
+            "image": "/Projects/Time Tracking.jpg",
             "link": "https://github.com/HamzaKhaled1/Time-tracking-dashboard.git",
             "description": [
         "A Comprehensive Time Tracking Dashboard! ⏱️",

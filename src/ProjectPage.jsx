@@ -10,18 +10,15 @@ const ProjectPage=()=>{
         setProject(projectsdata.Projects[id-1])
     },[])
     
-    console.log(project)
-
-    console.log(project.image)
     return(
         <>
         <div className="text-white sm:p-14 p-5 mb-auto gap-5  flex flex-col sm:flex-row h-screen">
     <div>
         <img src={project.image} alt={project.name}  />
     </div>
-    <div className="flex flex-col gap-10">
+    <div className="flex flex-col gap-3 sm:gap-10">
         <p className="sm:text-6xl text-3xl font-bold ">{project.name}</p>
-        <div className="flex flex-col gap-5">
+        <div className="flex flex-col sm:gap-5 gap-2">
         <p className="text-2xl ">Description:</p>
         <p className="sm:w-[40rem] w-full text-xs sm:text-base opacity-70 h-min">{project.description}</p>
         </div>

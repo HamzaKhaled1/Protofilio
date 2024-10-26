@@ -4,35 +4,10 @@ import projectsdata from "../projects.json"
 import axios from "axios"
 import { useEffect, useState } from "react"
 const Projects=()=>{
-     const projects=[
-        {
-            "id": 1,
-            "name": "Galleria-slideshow-site",
-            "image": "../public/Projects/Galleria.webp",
-            "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git"
-        },
-        {
-            "id": 2,
-            "name": "Dictionary",
-            "image": "../public/Projects/Dictionary.webp",
-            "link": "https://github.com/HamzaKhaled1/dictionary.git"
-        }
-        ,
-        {
-            "id": 3,
-            "name": "BlackMart",
-            "image": "../public/Projects/BlackMart.jpg",
-            "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git"
-        }
-        ,
-        {
-            "id": 4,
-            "name": "Time-tracking-dashboard",
-            "image": "../public/Projects/Time Tracking.jpg",
-            "link": "https://github.com/HamzaKhaled1/Time-tracking-dashboard.git"
-        }
-    ]
-    
+    const [projects,setProjects]=useState([]);
+    console.log(projectsdata.Projects)
+    useEffect(()=>{ setProjects(projectsdata.Projects)},[])
+    console.log(projects)
     return(
         <>
         <div id="projects" className="bg-neutral-700 p-36 pt-10" >
@@ -45,7 +20,7 @@ const Projects=()=>{
             </div>
             <div className="flex flex-wrap gap-16 mt-28 justify-center">
                 {
-                    projects.map((project)=><ProjectCard Name={project.name} image={project.image}/>
+                    projects.map((project)=><ProjectCard key={project.id} Name={project.name} image={project.image} id={project.id} Link={project.link} />
                     )
                 }
                 

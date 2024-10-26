@@ -3,28 +3,71 @@
         {
             "id": 1,
             "name": "Galleria-slideshow-site",
-            "image": "./public/Projects/Galleria.webp",
-            "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git"
+            "image": "/public/Projects/Galleria.webp",
+            "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git",
+            "description": [
+                "Elegant Gallery Layout: Experience art like never before with our beautifully designed gallery layout. Each painting is showcased with style and sophistication, all thanks to the powerful React framework.",
+                "Deep Dive into Artist Profiles: Explore rich, detailed profiles of the artists behind the masterpieces. Gain insights into their lives, artistic journeys, and the stories behind their iconic works.",
+                "Smooth and Intuitive Navigation: Navigate through the gallery effortlessly with React Router. Whether browsing through artwork or delving into artist biographies, the experience is seamless and user-friendly.",
+                "Responsive and Stylish Design: With Tailwind CSS, Galleria looks stunning on any device. Whether you’re using a phone, tablet, or desktop, the gallery adapts perfectly to provide an optimal viewing experience.",
+                "Interactive and Engaging Features: Discover interactive elements that delight in exploring art. From engaging slideshows to detailed descriptions, every feature is designed to captivate and inform.",
+                "Dynamic Artwork Display: Enjoy a rotating slideshow of artworks, allowing you to see different pieces and appreciate the diversity of styles and genres."
+            ]
         },
         {
             "id": 2,
             "name": "Dictionary",
-            "image": "./public/Projects/Dictionary.webp",
-            "link": "https://github.com/HamzaKhaled1/dictionary.git"
+            "image": "/public/Projects/Dictionary.webp",
+            "link": "https://github.com/HamzaKhaled1/dictionary.git",
+            "description": "a simple responsive dictionary app, built using React, Tailwind CSS, and JavaScript. Designed to look great on any device, the app provides quick definitions at your fingertips. 🧠📚📹 In this video, I walk through the app and demonstrate how it adapts to different screen sizes using clean, responsive design principles."
         }
         ,
         {
             "id": 3,
             "name": "BlackMart",
-            "image": "./public/Projects/BlackMart.jpg",
-            "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git"
+            "image": "/public/Projects/BlackMart.jpg",
+            "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git",
+            "description": [
+                "A Full-Stack E-Commerce Web Application! 🛒",
+                " I’ve developed an e-commerce platform combining sleek front-end design with powerful backend functionality. This project challenged me to bring together multiple technologies to create a feature-rich and responsive web application, and I'm excited to share what we've built so far!",
+                "🖥️ Frontend Technologies:",
+                "React: For building an intuitive and dynamic UI",
+                "Tailwind CSS: Providing a modern, responsive design that looks great on all devices",
+                "React Router DOM: For smooth navigation and a better user experience",
+                "⚙️ Backend Technologies:",
+                "Node.js & Express: Powering a scalable and secure API",
+                "MongoDB: Managing all product, user, and order data",
+                "JWT: Enforcing secure user authentication and interactions",
+                "💡 Key Features for Users:",
+                "Browse and search products, and view detailed information",
+                "Add products to the cart, make secure purchases, and track orders",
+                "Create a wishlist of favorite items",
+                "Comment and review products for a more interactive shopping experience",
+                "🛠️ Key Features for Admins:",
+                "Full control to add, update, or delete products",
+                "Manage everything through an admin panel for seamless product and order tracking",
+                "💼 What I Learned:",
+                "This project deepened my understanding of both frontend design and backend API development. Managing security, performance, and user experience was an exciting challenge."
+            ]
         }
         ,
         {
             "id": 4,
             "name": "Time-tracking-dashboard",
-            "image": "./public/Projects/Time Tracking.jpg",
-            "link": "https://github.com/HamzaKhaled1/Time-tracking-dashboard.git"
+            "image": "/public/Projects/Time Tracking.jpg",
+            "link": "https://github.com/HamzaKhaled1/Time-tracking-dashboard.git",
+            "description": [
+        "A Comprehensive Time Tracking Dashboard! ⏱️",
+        "This project is designed to help users monitor their time usage effectively, allowing them to optimize productivity and manage tasks efficiently.",
+        "📊 Key Features:",
+        "Intuitive User Interface: Built with React, the dashboard features a clean and user-friendly interface for seamless navigation.",
+        "Real-Time Data Visualization: Users can view their time data through visually appealing graphs and charts, making it easy to analyze time spent on different activities.",
+        "Task Management: Add, edit, and delete tasks effortlessly. Users can categorize tasks and track the time spent on each one.",
+        "Detailed Reports: Generate reports to assess productivity over various timeframes. This feature helps users identify trends and make informed decisions about their time management.",
+        "Responsive Design: Utilizing Tailwind CSS, the dashboard is fully responsive and provides an optimal viewing experience on devices of all sizes.",
+        "🌟 What I Learned:",
+        "This project enhanced my skills in state management with React, data visualization techniques, and building responsive web applications. The challenge of creating a tool for time management reinforced my understanding of user needs and application usability."
+    ]
         }
     ]
 }

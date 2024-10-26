@@ -5,8 +5,8 @@ const handleclick=()=>{
     navigate("/")
 }
 return <>
-<div className="flex p-4 sm:pr-16 sm:pl-16 justify-between items-center">
-    <p className="font-extrabold sm:text-4xl text-2xl text-white cursor-pointer" onClick={handleclick}>Hamza <span className="text-green-600">.</span></p>
+<div className="flex p-4 sm:pr-16 sm:pl-16 justify-between items-center w-screen">
+    <p className="font-extrabold sm:text-4xl text-xl text-white cursor-pointer" onClick={handleclick}>Hamza <span className="text-green-600">.</span></p>
 
 
 <div className="">

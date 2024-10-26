@@ -17,13 +17,13 @@ const ProjectPage=()=>{
         <>
         <div className="text-white sm:p-14 p-5 mb-auto gap-5  flex flex-col sm:flex-row h-screen">
     <div>
-        <img src={project.image} alt={project.name} className="min-w-96" />
+        <img src={project.image} alt={project.name}  />
     </div>
     <div className="flex flex-col gap-10">
         <p className="sm:text-6xl text-3xl font-bold ">{project.name}</p>
         <div className="flex flex-col gap-5">
         <p className="text-2xl ">Description:</p>
-        <p className="sm:w-[40rem] w-full text-sm opacity-70 h-min">{project.description}</p>
+        <p className="sm:w-[40rem] w-full text-xs sm:text-base opacity-70 h-min">{project.description}</p>
         </div>
     <div className=" flex  gap-5">
     <p>Code Link:</p>

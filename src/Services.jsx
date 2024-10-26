@@ -7,18 +7,18 @@ const Services=()=>{
     return(
         <>
         <div id="services" > 
-        <div className=" pl-32 pr-32 pt-10 pb-48 flex h-full justify-between items-center">
-            <div>
-             <p className="text-white text-4xl font-bold w-[35rem]">Years of experience in Web Development</p>
-            </div>
-            
+        <div className=" sm:pl-32 pr-32  sm:pb-48 pb-14 flex  h-full justify-between items-center">
+            <div className=" flex sm:flex-row flex-col gap-5 justify-between w-full P-5">
+             <p className="text-white sm:text-4xl text-2xl font-bold w-full sm:w-[35rem]">Years of experience in Web Development</p>
                     <div className="flex flex-col ">
                         <div className="flex items-center gap-4 ">
                         <div className="bg-green-600 w-20 h-0.5"></div>
                         <div className=" text-green-600 text-lg font-bold">Services</div>
-                    </div>
+                        </div>
+            
                         <p className="text-gray-500 w-80 ">Discover the best services I offer, designed to ensure the success of your project.</p>
              </div>
+            </div>
         </div>
         <div className="pb-20 flex flex-wrap gap-10 justify-evenly">
             <Card  name="MERN Stack develop"

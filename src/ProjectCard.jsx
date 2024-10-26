@@ -9,7 +9,7 @@ const ProjectCard=({image, Name ,link,id})=>{
 return(
     <>
     <div className="bg-transparent flex flex-col">
-        <img src={image} alt="" className="w-[32rem] h-96 " />
+        <img src={image} alt="" className="sm:w-[32rem] sm:h-96  w-96" />
         <div className="flex flex-col gap-3">
         <p className="text-white text-2xl font-bold mt-5 ">{Name}</p>
        

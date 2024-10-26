@@ -1,8 +1,8 @@
 const Header=()=>{
 
 return <>
-<div className="flex pt-4 pr-16 pl-16 justify-between items-center">
-    <p className="font-extrabold text-4xl text-white">Hamza <span className="text-green-600">.</span></p>
+<div className="flex p-4 sm:pr-16 sm:pl-16 justify-between items-center">
+    <p className="font-extrabold sm:text-4xl text-2xl text-white">Hamza <span className="text-green-600">.</span></p>
 
 
 <div className="">

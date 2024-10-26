@@ -4,12 +4,12 @@ const Home=()=>{
 
 return(
 <>
-<div className="p-40 pb-30 text-white flex h-full flex-col gap-7">
+<div className="sm:p-40  p-5 pb-30 text-white w-min flex h-full flex-col gap-7">
     <div className="flex flex-col gap-2">
     <p className="text-green-600 text-4xl font-bold">Hello I'm Hamza Khaled.</p>
-    <p className="text-7xl font-extrabold ">Web Developer <span className="font-normal animate-blink">|</span></p>
+    <p className="text-6xl font-extrabold ">Web Developer <span className="font-normal animate-blink">|</span></p>
     </div>
-<div className="text-gray-500 w-[40rem] ">
+<div className="text-gray-500 sm:w-[40rem] w-72 ">
     I'm a Computer Engineer from Egypt and I am a highly skilled MERN Stack Developer with a strong foundation in Computer
     Engineering, gained through my studies at Shorouck Academy and further enhanced by
     diverse learning experiences, including the DEPI Diploma. Specializing in MongoDB,

@@ -10,13 +10,13 @@ const Projects=()=>{
     console.log(projects)
     return(
         <>
-        <div id="projects" className="bg-neutral-700 p-36 pt-10" >
+        <div id="projects" className="bg-neutral-700 sm:p-36 p-5 pb-10 pt-10" >
             <div className="flex flex-col gap-7">
                 <div className="flex gap-4 items-center">
                 <div className="bg-green-600 w-16 h-0.5"></div>
-                <div className=" text-green-600 text-lg font-bold">Recent Work</div>
+                <div className=" text-green-600 sm:text-lg text-2xl font-bold">Recent Work</div>
                 </div>
-                <p className="text-white text-4xl font-bold w-96">Some of my favorite projects</p>
+                <p className="text-white sm:text-4xl text-xl font-bold w-96">Some of my favorite projects</p>
             </div>
             <div className="flex flex-wrap gap-16 mt-28 justify-center">
                 {

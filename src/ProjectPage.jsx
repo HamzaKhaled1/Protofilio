@@ -15,9 +15,9 @@ const ProjectPage=()=>{
     console.log(project.image)
     return(
         <>
-        <div className="text-white sm:p-14 p-5 mb-auto gap-5 flex flex-col sm:flex-row h-screen">
+        <div className="text-white sm:p-14 p-5 mb-auto gap-5  flex flex-col sm:flex-row h-screen">
     <div>
-        <img src={project.image} alt={project.name} />
+        <img src={project.image} alt={project.name} className="min-w-96" />
     </div>
     <div className="flex flex-col gap-10">
         <p className="sm:text-6xl text-3xl font-bold ">{project.name}</p>

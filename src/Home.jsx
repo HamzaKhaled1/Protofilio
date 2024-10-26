@@ -4,6 +4,7 @@ const Home=()=>{
 
 return(
 <>
+<div className="flex">
 <div className="sm:p-40  p-5 pb-30 text-white w-min flex h-full flex-col gap-7">
     <div className="flex flex-col gap-2">
     <p className="text-green-600 text-4xl font-bold">Hello I'm Hamza Khaled.</p>
@@ -24,6 +25,11 @@ return(
     <div className="bg-transparent cursor-pointer text-gray-500 pt-2 pb-2 pr-4 pl-4 flex gap-3 items-center text-lg "><a href="https://drive.google.com/uc?export=download&id=1oMb88j0ytSYIiwxoUH3PMidce1D45PYb" className="flex gap-3 items-center"><MdOutlineFileDownload className="text-xl" /> Downlod CV</a></div>
 
 </div>
+</div>
+<div className="h-full w-full mt-32 hidden sm:block">
+    <img src="/image.png" alt="" className="w-[50rem]" />
+</div>
+
 
 </div>
 </>

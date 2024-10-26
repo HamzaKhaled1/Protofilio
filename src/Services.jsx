@@ -21,15 +21,15 @@ const Services=()=>{
             </div>
         </div>
         <div className="pb-20 flex flex-wrap gap-10 justify-evenly">
-            <Card  name="MERN Stack develop"
+            <Card  name="MERN Stack development"
                 description="Skilled in full-stack development using the MERN stack (MongoDB, Express.js, React, Node.js). Proficient in building responsive and interactive applications, with a focus on creating seamless user experiences and robust backend functionality."
                 logo={Mernlogo}
             />
-            <Card  name="Frontend develop"
+            <Card  name="Frontend development"
                 description="Specialize in responsive and interactive front-end development. With a deep understanding of HTML, CSS, and JS."
                 logo={Frontendlogo}
             />
-            <Card  name="UI/UX develop"
+            <Card  name="UI/UX development"
                 description="Passionate about creating intuitive and engaging user interfaces. Specializing in user research, wireframing, and prototyping, with a strong understanding of responsive design principles to enhance user experience across devices."
                 logo={UIUX}
             />

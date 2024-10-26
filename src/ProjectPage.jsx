@@ -12,7 +12,7 @@ const ProjectPage=()=>{
     
     return(
         <>
-        <div className="text-white sm:p-14 p-5 mb-auto gap-5  flex flex-col sm:flex-row h-screen">
+        <div className="text-white sm:p-14 p-5 mb-16 sm:mb-0 gap-5  flex flex-col sm:flex-row h-screen">
     <div>
         <img src={project.image} alt={project.name}  />
     </div>

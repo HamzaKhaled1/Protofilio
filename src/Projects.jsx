@@ -8,27 +8,27 @@ const Projects=()=>{
         {
             "id": 1,
             "name": "Galleria-slideshow-site",
-            "image": "./public/Projects/Galleria.webp",
+            "image": "../public/Projects/Galleria.webp",
             "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git"
         },
         {
             "id": 2,
             "name": "Dictionary",
-            "image": "./public/Projects/Dictionary.webp",
+            "image": "../public/Projects/Dictionary.webp",
             "link": "https://github.com/HamzaKhaled1/dictionary.git"
         }
         ,
         {
             "id": 3,
             "name": "BlackMart",
-            "image": "./public/Projects/BlackMart.jpg",
+            "image": "../public/Projects/BlackMart.jpg",
             "link": "https://github.com/HamzaKhaled1/Galleria-slideshow-site.git"
         }
         ,
         {
             "id": 4,
             "name": "Time-tracking-dashboard",
-            "image": "./public/Projects/Time Tracking.jpg",
+            "image": "../public/Projects/Time Tracking.jpg",
             "link": "https://github.com/HamzaKhaled1/Time-tracking-dashboard.git"
         }
     ]

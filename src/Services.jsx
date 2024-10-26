@@ -7,7 +7,7 @@ const Services=()=>{
     return(
         <>
         <div id="services" > 
-        <div className=" sm:pl-32 pr-32  sm:pb-48 pb-14 flex  h-full justify-between items-center">
+        <div className=" sm:pl-32 p-14  sm:pb-48 pb-14 flex  h-full justify-between items-center">
             <div className=" flex sm:flex-row flex-col gap-5 justify-between w-full P-5">
              <p className="text-white sm:text-4xl text-2xl font-bold w-full sm:w-[35rem]">Years of experience in Web Development</p>
                     <div className="flex flex-col ">

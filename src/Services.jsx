@@ -1,5 +1,7 @@
 import Card from "./Card";
 import Frontendlogo from "../public/Frontendlogo.png"
+import Mernlogo from "../public/Mernlogo.png"
+import UIUX from "../public/UIUX.png"
 const Services=()=>{
 
     return(
@@ -21,7 +23,7 @@ const Services=()=>{
         <div className="pb-20 flex flex-wrap gap-10 justify-evenly">
             <Card  name="MERN Stack develop"
                 description="Skilled in full-stack development using the MERN stack (MongoDB, Express.js, React, Node.js). Proficient in building responsive and interactive applications, with a focus on creating seamless user experiences and robust backend functionality."
-                logo={Frontendlogo}
+                logo={Mernlogo}
             />
             <Card  name="Frontend develop"
                 description="Specialize in responsive and interactive front-end development. With a deep understanding of HTML, CSS, and JS."
@@ -29,7 +31,7 @@ const Services=()=>{
             />
             <Card  name="UI/UX develop"
                 description="Passionate about creating intuitive and engaging user interfaces. Specializing in user research, wireframing, and prototyping, with a strong understanding of responsive design principles to enhance user experience across devices."
-                logo={Frontendlogo}
+                logo={UIUX}
             />
         </div>
        </div>

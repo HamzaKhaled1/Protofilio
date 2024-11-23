@@ -22,7 +22,7 @@ return(
 </div>
 <div className="flex gap-10 ">
     <div className="bg-green-600 text-lg  cursor-pointer hover:bg-green-400 pt-2 pb-2 pr-4 pl-4  text-white"> <a href="mailto:hamza.khaled2091@gmail.com">Email me</a> </div>
-    <div className="bg-transparent cursor-pointer text-gray-500 pt-2 pb-2 pr-4 pl-4 flex gap-3 items-center text-lg "><a href="https://drive.google.com/uc?export=download&id=18gCGQOjRJMSW4HEsxTiekrlDAuEwD6zI" className="flex gap-3 items-center"><MdOutlineFileDownload className="text-xl" /> Downlod CV</a></div>
+    <div className="bg-transparent cursor-pointer text-gray-500 pt-2 pb-2 pr-4 pl-4 flex gap-3 items-center text-lg "><a href="https://drive.google.com/uc?export=download&id=1CIJrtwRLBsodShTBmRgYt9W7lwWx8oPM" className="flex gap-3 items-center"><MdOutlineFileDownload className="text-xl" /> Downlod CV</a></div>
 
 </div>
 </div>

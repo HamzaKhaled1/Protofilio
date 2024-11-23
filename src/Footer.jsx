@@ -18,7 +18,7 @@ const Footer=()=>{
             <div className="flex flex-col gap-4">
                 <p className="text-white text-sm sm:text-xl  font-bold">Information</p>
                 
-                    <ul className="text-gray-400 text-sm  sm:text-base cursor-pointer flex gap-3 items-center hover:text-green-600"><FaWhatsapp className="text-lg" />01002173087</ul>
+                    <ul className="text-gray-400 text-sm  sm:text-base cursor-pointer flex gap-3 items-center hover:text-green-600"> <a href="https://wa.link/wdy75u" className="flex gap-3"><FaWhatsapp className="text-lg" />01156444834</a></ul>
                     <ul className="text-gray-400 text-sm  sm:text-base cursor-pointer  flex gap-3 items-center hover:text-red-500"> <BiLogoGmail className="text-lg" />hamza.khaled2091@gmail.com</ul>
                     <ul className="text-gray-400 text-sm  sm:text-base cursor-pointer flex gap-3 items-center hover:text-stone-500"><FaLocationDot className="text-lg" />Sarray Alkoppa, Cairo</ul>
                 
